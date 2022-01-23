@@ -1,0 +1,35 @@
+<div>
+    <mat-toolbar *ngIf=" actionView == 'list' || actionView == ''">
+        <button mat-icon-button  >
+            <mat-icon class="icon">list</mat-icon>
+        </button>
+        <span class="titleMenu">MENU DISPONIBLES</span>
+        <span class="spacer"></span>
+        <button mat-stroked-button class="button"  (click)="openNewMenus()" >
+              Ajouter menu
+        </button>
+            
+    </mat-toolbar>
+    
+    <mat-toolbar  *ngIf=" actionView == 'detail'">
+        <span class="titleSousMenu"> Ingrédients utilisé pour un menu :  {{actionViewId.NomMenu}}</span> 
+        <span class="spacer"></span>
+        <button  mat-stroked-button (click)="openNewIngredientNecessaire()" class="button" > Nouveau </button>
+        <div class="otherButton">
+            <button  mat-stroked-button (click)="backList()" class="button"  > Retour</button>
+        </div>
+    </mat-toolbar>
+
+    <mat-divider></mat-divider>
+
+    <!-- Component list menus -->
+    <div *ngIf=" actionView == 'list' || actionView == ''">
+        <app-menus-list style="width: -webkit-fill-available;">
+        </app-menus-list>
+    </div>
+    <div *ngIf="actionView == 'detail'">
+        <app-menus-detail style="width: -webkit-fill-available;"></app-menus-detail>      
+    </div>
+    <br>
+</div>
+

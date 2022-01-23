@@ -1,0 +1,74 @@
+
+.button{
+  color: #1f3249;
+  border-color: #1f3249;
+  /* font-size: large; */
+  /* float: right; */
+}
+.button-action{
+color: #69570d;
+border: none;
+background-color: white;
+padding: 7 7 7 7 ;
+}
+.button-print{
+  color: #69570d;
+border: none;
+background-color: rgb(250 250 250);;
+padding: 7 7 7 7 ;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+table {      
+  width: 95%;
+}
+.liste_data{
+  padding-top: 8%;
+  padding-left: 8%;
+  position: relative;
+
+}
+.print{
+  float: right;
+  padding-right: 5%;
+  background-color: rgb(250 250 250);
+}
+
+th{
+  color: #1f3249;
+  font-weight: bold;
+  background-color: #dce9f8;
+}
+
+
+::ng-deep .mat-paginator-page-size-select {
+  width: 4s5px!important;
+}
+::ng-deep .mat-paginator-page-size-label{
+  color: #1f3249;
+}
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: transparent;
+}
+
+::ng-deep .mat-select-value {
+color: #1f3249;
+  font-weight: bold;
+  font-size: 13px;
+}
+::ng-deep .mat-select-arrow {
+  color: #1f3249;
+}
+::ng-deep .mat-option{
+padding: 0!important;
+
+}
+::ng-deep .mat-option-text {
+  font-weight: bold;
+  text-align: center;
+}
+::ng-deep .mat-paginator-range-label{
+  font-weight: bold;
+  color: grey;
+}

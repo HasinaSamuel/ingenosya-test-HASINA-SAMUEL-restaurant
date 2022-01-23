@@ -1,0 +1,24 @@
+<div>
+
+    <mat-toolbar>
+        <button mat-icon-button  >
+            <mat-icon class="icon">list</mat-icon>
+        </button>
+        <span class="titleIngredient">Les Ingrédients</span>
+        <span class="spacer"></span>
+        <button mat-stroked-button class="button" (click)="openNewIngredient()">
+              Nouvel Ingrédient
+        </button>
+    </mat-toolbar>
+
+    <mat-divider></mat-divider>
+    
+    <!-- Component list ingredient -->
+    <app-ingredient-list style="width: -webkit-fill-available;">
+    </app-ingredient-list>
+
+    <br>
+
+</div>
+
+

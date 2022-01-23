@@ -1,0 +1,61 @@
+<div #content>
+  <div class="print">
+    <button  class="button-print"(click)="genererPDF()">
+      <mat-icon>print</mat-icon>
+    </button>
+  </div>
+
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" class="liste_data" id="my-table">
+
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> # </th>
+      <td mat-cell *matCellDef="let element"> {{element.IdMenu}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="nom">
+      <th mat-header-cell *matHeaderCellDef> Nom </th>
+      <td mat-cell *matCellDef="let element"> {{element.NomMenu}} </td>
+    </ng-container>
+ 
+    <ng-container matColumnDef="recette">
+      <th mat-header-cell *matHeaderCellDef> Recette </th>
+      <td mat-cell *matCellDef="let element"> {{element.NomRecette}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="prix">
+        <th mat-header-cell *matHeaderCellDef> Prix </th>
+        <td mat-cell *matCellDef="let element"> {{element.PrixUnitMenu}} </td>
+    </ng-container>
+
+    
+    <ng-container matColumnDef="action">
+      <tr><th mat-header-cell *matHeaderCellDef> Actions </th></tr>
+      <tr> <td mat-cell *matCellDef="let element" style="width:20%" > 
+           <button mat-icon-button class="button-action" title="Modifier" (click)="openEditMenus(element)">
+             <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button class="button-action" title="Supprimer" (click)="openDeleteMenus(element)">
+              <mat-icon>delete</mat-icon></button>
+        </td></tr>
+    </ng-container>
+  
+    <ng-container matColumnDef="Details recette">
+      <tr><th mat-header-cell *matHeaderCellDef> Détails recette </th></tr>
+      <tr> <td mat-cell *matCellDef="let element" style="width:20%" > 
+               <button (click)="changeInterface(element)" class="button-action" title="Détails recette">   <mat-icon>preview</mat-icon> </button>
+        </td></tr>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+    <tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>
+
+  </table>
+</div>
+  <mat-paginator [pageSizeOptions]="[3, 5, 10]"    showFirstLastButtons >
+  </mat-paginator>
+
+  
+
+
+
+

@@ -1,0 +1,37 @@
+<div *ngIf=" actionMenus == 'add' "> Nouveau Menu   </div>
+<div *ngIf=" actionMenus == 'edit' "> Edition Menu ( {{editMenus.NomMenu}} )  </div>
+
+<br>
+<mat-form-field class="example-form-field" appearance="fill">
+    <mat-label> Nom </mat-label>
+    <input matInput type="text" [(ngModel)]="name">
+    <button *ngIf="name" matSuffix mat-icon-button aria-label="Clear" (click)="name=''">
+      X
+    </button>
+</mat-form-field> <br>
+
+<mat-form-field class="example-form-field" appearance="fill">
+  <mat-label> Recette </mat-label>
+  <input matInput type="text" [(ngModel)]="recette">
+  <button *ngIf="recette" matSuffix mat-icon-button aria-label="Clear" (click)="recette=''">
+    X
+  </button>
+</mat-form-field> <br>
+
+  
+  <mat-form-field class="example-form-field" appearance="fill" floatLabel="always">
+    <mat-label>Prix</mat-label>
+    <input matInput type="number" [(ngModel)]="price" >
+    <span matPrefix>Ar&nbsp;</span>
+  </mat-form-field>
+  
+  <br>
+
+  <button class="button-action"  *ngIf=" actionMenus == 'add' " (click)="procAddMenus()" > Ajouter </button> 
+  <button class="button-action"  *ngIf=" actionMenus == 'edit' " (click)="procUpdateMenus()"> Modifier </button>
+  <button class="button-annuler"  mat-button mat-dialog-close (click)="clickCancelForm()"> Annuler </button>
+
+
+  
+
+

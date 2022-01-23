@@ -1,0 +1,34 @@
+:host{
+    width: 100%;
+}
+
+.icon{
+    font-size: xx-large;
+}
+.titleMenu{
+     font-size: x-large;
+    /* padding-left: 4%;
+    padding-top: 2%;  */
+}
+.titleSousMenu{
+    font-size: large;
+   /* padding-left: 4%;
+   padding-top: 2%;  */
+}
+.button{
+    color: #1f3249;
+    border-color: #1f3249;
+    /* font-size: large; */
+    /* float: right; */
+}
+.otherButton {
+    padding-left: 4%;
+}
+.button-action{
+color: #69570d;;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
+ 

@@ -1,0 +1,51 @@
+<div *ngIf=" actionIngredient == 'add' " class="tittleModal"> Nouveau Ingredient   </div>
+<div *ngIf=" actionIngredient == 'edit' " class="tittleModal"> Edition Ingredient ( {{editIngredient.NomIngredient}} )  </div>
+
+
+<br>
+<mat-form-field class="example-form-field" appearance="fill">
+    <mat-label> Nom </mat-label>
+    <input matInput type="text" [(ngModel)]="name" required>
+    <button *ngIf="name" matSuffix mat-icon-button aria-label="Clear" (click)="name=''">
+      X
+    </button>
+</mat-form-field> <br>
+
+<mat-form-field class="example-form-field" appearance="fill">
+    <mat-label> Quantité </mat-label>
+    <input matInput type="number" [(ngModel)]="quantite" required>
+    <button *ngIf="quantite" matSuffix mat-icon-button aria-label="Clear" (click)="quantite=0">
+      X
+    </button>
+  </mat-form-field><br>
+
+  <mat-form-field class="example-form-field" appearance="fill">
+    <mat-label> Unité </mat-label>
+    <input matInput type="text" [(ngModel)]="unite" required>
+    <button *ngIf="unite" matSuffix mat-icon-button aria-label="Clear" (click)="unite=''">
+      X
+    </button>
+  </mat-form-field> <br>
+ 
+
+  <mat-form-field   class="example-form-field" appearance="fill" floatLabel="always">
+    <mat-label> Prix unitaire </mat-label>
+    <input matInput type="number"  [(ngModel)]="price" >
+    <span matPrefix>Ar&nbsp;</span>
+  </mat-form-field>
+  <br>
+
+ 
+
+  <div mat-dialog-actions>
+    <button mat-stroked-button class="button-action" *ngIf=" actionIngredient == 'add' " (click)="procAddIngredient()" >
+      Ajouter </button> 
+   
+   <button class="button-action"  *ngIf=" actionIngredient == 'edit' " (click)="procUpdateIngredient()"> Modifier </button>
+   <button mat-button mat-dialog-close class="button-annuler" (click)="clickCancelForm()"> Annuler </button>
+  </div>
+
+  
+
+  
+

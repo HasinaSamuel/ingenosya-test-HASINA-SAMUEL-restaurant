@@ -1,0 +1,63 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<mat-toolbar>
+
+    Gestion restaurant
+    </mat-toolbar>
+    
+    <mat-sidenav-container>
+        <mat-sidenav mode="side" opened class="mat-elevation-z8">
+            <mat-divider></mat-divider>
+            <!-- <button mat-button class="menu-button" routerLink='/dashboard'>
+                <mat-icon>home</mat-icon>
+                <span>Accueil</span>
+            </button> -->
+            <button mat-button class="menu-button" routerLink='/ingredient'>
+                <mat-icon>list</mat-icon>
+                <span>Ingredients</span>
+
+            </button>
+            <button mat-button class="menu-button" routerLink='/menus'>
+                <mat-icon>local_dining</mat-icon>
+                <span>Menus</span>
+            </button>
+
+            <button mat-button class="menu-button">
+                <mat-icon>restaurant</mat-icon>
+                <span>Préparation repas</span>
+            </button>
+            
+            
+    
+            <button mat-button class="menu-button" >
+                <mat-icon>shopping_cart</mat-icon>
+                <span>Ventes</span>
+            </button>
+
+            <button mat-button class="menu-button">
+                <mat-icon>trending_up</mat-icon>
+                <span>Visualisation</span>
+            </button>
+            
+
+            <mat-divider></mat-divider>
+    
+            
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+            <div class="content mat-elevation-z8" id="container-principal">
+                <router-outlet></router-outlet>
+            </div>
+        </mat-sidenav-content>
+        
+    </mat-sidenav-container>
+
+

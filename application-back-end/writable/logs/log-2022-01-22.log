@@ -1,0 +1,105 @@
+CRITICAL - 2022-01-22 14:36:14 --> Call to undefined function App\Controllers\Api\error_to_string()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\Menu->maj_menu()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 14:36:47 --> Call to undefined function App\Controllers\Api\error_to_string()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\Menu->maj_menu()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 15:09:34 --> Call to a member function where() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\Menu->delete_menu()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 15:09:43 --> Call to a member function where() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\Menu->delete_menu()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 15:10:02 --> Call to a member function where() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\Menu->delete_menu()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:03:58 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:04:09 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:04:22 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:07:34 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:07:41 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:17:45 --> Call to undefined method App\Controllers\Api\ElementNecessaire::elementNecessaireModel()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:17:50 --> Call to undefined method App\Controllers\Api\ElementNecessaire::elementNecessaireModel()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:18:59 --> Call to undefined method App\Controllers\Api\ElementNecessaire::elementNecessaireModel()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:19:59 --> Call to undefined method App\Controllers\Api\ElementNecessaire::elementNecessaireModel()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:20:01 --> Call to undefined method App\Controllers\Api\ElementNecessaire::elementNecessaireModel()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 21:20:02 --> Call to undefined method App\Controllers\Api\ElementNecessaire::elementNecessaireModel()
+#0 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#1 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-22 21:26:22 --> La table 'conception.idingredient' n'existe pas
+CRITICAL - 2022-01-22 21:26:22 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\gestion_restaurant\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\wamp64\www\gestion_restaurant\app\Controllers\Api\ElementNecessaire.php(22): CodeIgniter\BaseModel->findAll()
+#2 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(825): App\Controllers\Api\ElementNecessaire->list_element_necessaire()
+#3 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ElementNecessaire))
+#4 C:\wamp64\www\gestion_restaurant\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\gestion_restaurant\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

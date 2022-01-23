@@ -1,0 +1,30 @@
+<div class="tittleModal"> Ajouter autre ingrédient pour la recette   </div>
+<br>
+<mat-form-field class="example-form-field" appearance="fill">
+<mat-label>Ingrédient </mat-label>
+<mat-select [(ngModel)]="idIngredient">
+    <mat-option *ngFor="let listIngredient of listIngredients" [value]="listIngredient.IdIngredient">
+    {{listIngredient.NomIngredient}}
+    </mat-option>
+</mat-select>
+</mat-form-field> <br>
+  <mat-form-field class="example-form-field" appearance="fill">
+    <mat-label> Quantite </mat-label>
+    <input matInput type="number" [(ngModel)]="quantite">
+    <button *ngIf="quantite" matSuffix mat-icon-button aria-label="Clear" (click)="quantite=0">
+      X
+    </button>
+  </mat-form-field> <br>
+
+  
+  <div mat-dialog-actions>
+    <button mat-stroked-button class="button-action" (click)="procAddIngredientNecessaire()">
+      Ajouter </button> 
+   
+   <button mat-button mat-dialog-close class="button-annuler" (click)="clickCancelForm()"> Annuler </button>
+  </div>
+
+  
+
+
+
