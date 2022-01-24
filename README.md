@@ -16,7 +16,7 @@ La quantité d'un menu dans ProduitFabrique augmente pour chaque validation fabr
 Installation
 
 Pour que le projet soit opérationnel sur votre ordinateur local, procédez comme suit :
-1. cloner avec l'url donnée en utilisant commande => git clone https://github.com/................
+1. cloner avec l'url donnée en utilisant commande => git clone https://github.com/HasinaSamuel/ingenosya-test-HASINA-SAMUEL-restaurant.git
 2. Taper cd Application-front-end puis Exécutez npm install, pour installer toutes les dépendances nécessaires
 3. Maintenant pour le backend, le dossier PHP, placez le dossier dans C:\wamp64\www ; vous avez besoin que wamp soit installé sur votre système.
 4. Récupérez le fichier  conception.sql 
